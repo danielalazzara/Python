@@ -50,7 +50,7 @@ def optimal_merge_pattern(files: list) -> float:
     return optimal_merge_cost
 
 
-if __name__ == "__main__":
+if __name__ == "__main__":  # pragma: no cover
     import doctest
 
     doctest.testmod()

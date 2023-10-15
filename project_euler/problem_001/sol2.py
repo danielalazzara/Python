@@ -34,5 +34,5 @@ def solution(n: int = 1000) -> int:
     return total
 
 
-if __name__ == "__main__":
+if __name__ == "__main__":  # pragma: no cover
     print(f"{solution() = }")
